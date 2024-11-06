@@ -19,7 +19,7 @@ import csv
 
 def parse_trustees(trusteeFile):
    trustees = []
-   with open(trusteeFile, newline='') as csvfile:
+   with open(trusteeFile, encoding='utf-8-sig', newline='') as csvfile:
       reader = csv.DictReader(csvfile, delimiter=',')
       print("Detected headers:", reader.fieldnames)  # Add this line
       for row in reader:
