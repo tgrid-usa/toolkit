@@ -21,6 +21,7 @@ def parse_trustees(trusteeFile):
    trustees = []
    with open(trusteeFile, newline='') as csvfile:
       reader = csv.DictReader(csvfile, delimiter=',')
+      print("Detected headers:", reader.fieldnames)  # Add this line
       for row in reader:
          trustees.append({'name':row['Trustee name'], 'nym':row['Trustee DID'], 'verkey':row['Trustee verkey']})
    return trustees
