@@ -1,0 +1,3 @@
+{"reqSignature":{},"txn":{"data":{"alias":"Santosh D","dest":"JTXYq9g5EDupPPY3jU8zKf","role":"0","verkey":"AWrxyrHxBgWLpddvGVLggE2y9ALaoqnqqorsx5Q433P4"},"metadata":{},"type":"1"},"txnMetadata":{"seqNo":1},"ver":"1"}
+{"reqSignature":{},"txn":{"data":{"alias":"Akshay K","dest":"Hr572JZUCKPji5vbywnr8n","role":"0","verkey":"ABY8heueaGmPFn8czzTkLqHkg6XiTd1hLQc2HxeN1aqN"},"metadata":{},"type":"1"},"txnMetadata":{"seqNo":2},"ver":"1"}
+{"reqSignature":{},"txn":{"data":{"dest":"3XvP39e8RQaJxJjFXs8sSE","role":"2","verkey":"~DcqJ98SGjQRKekdGV1hgT7"},"metadata":{"from":"Hr572JZUCKPji5vbywnr8n"},"type":"1"},"txnMetadata":{"seqNo":3},"ver":"1"}
